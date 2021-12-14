@@ -1,0 +1,9 @@
+﻿@page
+@model PartialView.Pages.IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+
+@Html.Partial("_FilmPartial", Model.FilmList)
+
